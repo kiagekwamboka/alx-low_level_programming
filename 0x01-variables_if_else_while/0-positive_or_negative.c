@@ -18,8 +18,10 @@ int main(void)
 		printf("is positive");
 	else if (n == 0)
 		printf("is zero");
-	else
+	else if (n < 0)
 		printf("is negative");
+	else
+		printf("not valid");
 	return (0);
 }
 
