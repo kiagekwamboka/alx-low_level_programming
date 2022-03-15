@@ -7,6 +7,7 @@ int main(void)
 {
 	char i[20] = "_putchar ";
 
-	printf("%s\n", i);
+	printf("%s", i);
+	putchar('\n');
 	return (0);
 }
