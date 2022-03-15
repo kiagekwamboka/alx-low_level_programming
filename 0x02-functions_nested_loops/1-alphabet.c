@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #include <time.h>
-
+#include<main.h>
 /**
 * main - Entry point
 * print_alphabet - prints the alphabet
