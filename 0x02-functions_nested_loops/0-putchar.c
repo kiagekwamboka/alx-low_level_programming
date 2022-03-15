@@ -5,8 +5,8 @@
 */
 int main(void)
 {
-	char i[20] = "_putchar";
+	char i[20] = "_putchar ";
 
-	printf("%s ", i);
+	printf("%s", i);
 	return (0);
 }
