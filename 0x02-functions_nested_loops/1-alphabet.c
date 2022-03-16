@@ -1,8 +1,4 @@
-#include <stdio.h>
-
-#include <stdlib.h>
-
-#include <time.h>
+#include "main.h"
 /**
 * main - Entry point
 * print_alphabet - prints the alphabet
@@ -13,9 +9,8 @@ void print_alphabet(void)
 	char s;
 
 	for (s = 'a'; s <= 'z'; s++)
-		putchar(s);
-	putchar('\n');
-	getchar();
+		_putchar(s);
+	_putchar('\n');
 }
 int main(void)
 {
