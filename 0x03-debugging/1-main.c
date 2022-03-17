@@ -7,14 +7,13 @@
 
 int main(void)
 {
-/**
-*	int i;
-*/
-	printf("Infinite loop incoming :(\n");
-	/**
-	* i = 0;
+	int i;
 
-	* while (i < 10)
+	printf("Infinite loop incoming :(\n");
+	
+	i = 0;
+
+	/* while (i < 10)
 	*{
 	*	putchar(i);
 	* }
